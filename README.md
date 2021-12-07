@@ -4,3 +4,4 @@ Projeto criado, utilizando a linguagem de programação Java, para construir um 
 • Verificar a quantidade de produtos do site. <br>
 • Verificar se o carrinho de compras está vazio. <br>
 • Testar o Fluxo Padrão.
+• Testar Login.
