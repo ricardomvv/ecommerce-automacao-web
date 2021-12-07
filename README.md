@@ -1,7 +1,7 @@
 # Script para Teste de Software utilizando Selenium, Maven, Hamcrast e JUnit
 Projeto criado, utilizando a linguagem de programação Java, para construir um script que verifique as funcionalidades do site da loja.
-<br>
--Testes Automatizados:
+<br><br>
+-Testes Automatizados:<br>
 • Verificar a quantidade de produtos do site. <br>
 • Verificar se o carrinho de compras está vazio. <br>
 • Verificar detalhes do produto. <br>
