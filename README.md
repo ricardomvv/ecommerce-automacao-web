@@ -3,5 +3,9 @@ Projeto criado, utilizando a linguagem de programação Java, para construir um 
 
 • Verificar a quantidade de produtos do site. <br>
 • Verificar se o carrinho de compras está vazio. <br>
+• Verificar detalhes do produto. <br>
 • Testar o Fluxo Padrão. <br>
-• Testar Login.
+• Testar Login. <br>
+• Teste de inclusão do produto no carrinho. <br>
+• Teste de ir para o carrinho <br>
+• Teste de ir para o checkout. <br>
