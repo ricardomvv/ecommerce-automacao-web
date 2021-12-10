@@ -33,7 +33,7 @@ public class ModalProdutoPage {
 	
 	public String obterMensagemProdutoAdicionado() {
 
-        WebDriverWait wait = new WebDriverWait(driver, 10); /* Códido novo substiduindo de acima */
+        WebDriverWait wait = new WebDriverWait(driver, 10); /* CÃ³digo novo substituindo o de acima (FluentWait) */
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(mensagemProdutoAdicionado));        
 
