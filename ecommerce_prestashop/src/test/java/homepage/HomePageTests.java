@@ -109,8 +109,7 @@ public class HomePageTests extends BaseTests {
 		//Adicionar no carrinho
 		ModalProdutoPage modalProdutoPage = produtoPage.clicarBotaoAddToCart();
 		
-		//Validacoes
-		
+		//Validacões
 		assertTrue(modalProdutoPage.obterMensagemProdutoAdicionado().endsWith("Product successfully added to your shopping cart"));
 	
 		System.out.println(modalProdutoPage.obterTamanhoProduto());
