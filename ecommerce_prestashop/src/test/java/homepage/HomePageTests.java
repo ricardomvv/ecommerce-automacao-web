@@ -53,14 +53,14 @@ public class HomePageTests extends BaseTests {
 	LoginPage loginPage;
 	@Test
 	public void testLoginComSucesso_UsuarioLogado() {
-		//Clicar no botão Sign In na Home Page
+		//Clicar no botão 'Sign In' na Home Page
 		loginPage = homePage.clicarBotaoSignIn();
 		
 		//Preencher usuario e senha
 		loginPage.preencherEmail("ricardomvv@teste.com");
 		loginPage.preencherPassword("teste");
 		
-		//Clicar no botão Sign In para logar
+		//Clicar no botão 'Sign In' para logar
 		loginPage.clicarBotaoSignIn();
 		
 		//Validar se o usuário está logado de fato
