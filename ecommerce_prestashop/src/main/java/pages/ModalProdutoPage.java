@@ -25,12 +25,6 @@ public class ModalProdutoPage {
 		this.driver = driver;
 	}
 	
-	/*public String obterMensagemProdutoAdicionado() {
-		FluentWait wait = new FluentWait(driver).withTimeout(Duration.ofSeconds(60))
-				.pollingEvery(Duration.ofSeconds(30))
-				.ignoring(NoSuchElementException.class);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(mensagemProdutoAdicionado));*/
-	
 	public String obterMensagemProdutoAdicionado() {
 
         WebDriverWait wait = new WebDriverWait(driver, 10); /* Código novo substituindo o de acima (FluentWait) */
